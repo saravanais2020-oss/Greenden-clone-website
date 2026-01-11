@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greenden</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans">
+
+  <!-- NAVBAR -->
+  <nav class="bg-green-100 p-4 flex justify-between items-center shadow sticky top-0 z-50">
+    <h1 class="text-2xl font-bold text-green-800">Greenden</h1>
+
+    <!-- Menu -->
+    <ul class="hidden md:flex gap-6 text-gray-700 font-medium">
+      <li><a href="index.html" class="hover:text-green-800">Home</a></li>
+      <li><a href="product.html" class="hover:text-green-800">Products</a></li>
+      <li><a href="contact.html" class="hover:text-green-800">Contact</a></li>
+    </ul>
+
+    <!-- Mobile Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:hidden" fill="none" viewBox="0 0 24 24"
+      stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="bg-green-50 flex flex-col md:flex-row items-center justify-between p-8">
+    <div class="md:w-1/2">
+      <p class="text-green-700 mb-3">Nature at your doorstep</p>
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">
+        Plants for Your Interior
+      </h2>
+      <p class="mb-6 text-gray-600">
+        We offer a wide range of natural and beautiful plants for your home.
+      </p>
+
+      <button class="bg-green-800 text-white px-5 py-2 rounded hover:bg-green-900">
+        Shop Now
+      </button>
+      <button class="border border-green-800 px-5 py-2 rounded ml-3 hover:bg-green-100">
+        Watch Video
+      </button>
+
+      <p class="mt-5 text-sm text-gray-600">
+        🌱 160+ Plant Species | 😊 100+ Happy Clients
+      </p>
+    </div>
+
+    <div class="hidden md:block md:w-1/2">
+      <img src="./Images/Header image.jpg" alt="Plants" class="w-80 mx-auto">
+    </div>
+  </header>
+
+  <!-- ABOUT US -->
+  <section class="text-center p-6">
+    <h2 class="text-2xl font-bold mb-2">About Us</h2>
+    <p class="text-gray-600 mb-6">
+      This site is for those who admire the beauty and harmony of nature.
+    </p>
+
+    <div class="grid gap-6 md:grid-cols-3">
+      <div class="border p-5 rounded hover:shadow-lg">
+        <h3 class="font-semibold text-xl mb-2">Large Assortment</h3>
+        <p class="text-gray-600 text-sm">
+          A wide variety of indoor and outdoor plants carefully selected for you.
+        </p>
+      </div>
+
+      <div class="border p-5 rounded hover:shadow-lg">
+        <h3 class="font-semibold text-xl mb-2">Fast Delivery</h3>
+        <p class="text-gray-600 text-sm">
+          Safe and quick delivery ensuring plants reach you fresh and healthy.
+        </p>
+      </div>
+
+      <div class="border p-5 rounded hover:shadow-lg">
+        <h3 class="font-semibold text-xl mb-2">24/7 Support</h3>
+        <p class="text-gray-600 text-sm">
+          Our team is always available to guide you with plant care.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEST SELLERS -->
+  <section class="p-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Best Sellers</h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="hover:-translate-y-2 transition">
+        <img src="./Images/B1 (1).jpg"class="w-64 h-64 object-cover rounded-lg">
+        <p class="font-medium mt-2">Rose Plant</p>
+        <p class="text-green-700">$20</p>
+      </div>
+
+      <div class="hover:-translate-y-2 transition">
+        <img src="./Images/B1 (2).jpg" class="w-64 h-64 object-cover rounded-lg">
+        <p class="font-medium mt-2">Lily Plant</p>
+        <p class="text-green-700">$25</p>
+      </div>
+
+      <div class="hover:-translate-y-2 transition">
+        <img src="./Images/B1 (6).jpg" class="w-64 h-64 object-cover rounded-lg">
+        <p class="font-medium mt-2">Indoor Palm</p>
+        <p class="text-green-700">$30</p>
+      </div>
+
+      <div class="hover:-translate-y-2 transition">
+        <img src="./Images/B1 (8).jpg" class="w-64 h-64 object-cover rounded-lg">
+        <p class="font-medium mt-2">Snake Plant</p>
+        <p class="text-green-700">$18</p>
+      </div>
+    </div>
+  </section>
+  <!-- CUSTOMER REVIEWS -->
+<section class="p-6">
+  <h2 class="text-3xl font-bold text-center mb-6">Customer reviews</h2>
+
+  <div class="flex flex-col gap-6 max-w-5xl mx-auto">
+    <!-- Review 1 -->
+    <div class="bg-green-900 p-6">
+      <p class="text-white mb-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dolore
+        voluptatum dolor soluta doloremque quo porro error minus minima quis
+        eius odit quae cumque tempore possimus vel voluptatibus quam esse.
+      </p>
+      <p class="text-yellow-400 font-semibold">Jenny matthews</p>
+    </div>
+
+    <!-- Review 2 -->
+    <div class="bg-green-900 p-6">
+      <p class="text-white mb-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dolore
+        voluptatum dolor soluta doloremque quo porro error minus minima quis
+        eius odit quae cumque tempore possimus vel voluptatibus quam esse.
+      </p>
+      <p class="text-yellow-400 font-semibold">Jim carry</p>
+    </div>
+
+    <!-- Review 3 -->
+    <div class="bg-green-900 p-6">
+      <p class="text-white mb-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dolore
+        voluptatum dolor soluta doloremque quo porro error minus minima quis
+        eius odit quae cumque tempore possimus vel voluptatibus quam esse.
+      </p>
+      <p class="text-yellow-400 font-semibold">Peter parker</p>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="p-8 text-center">
+  <h2 class="text-3xl font-bold mb-2">Join our news letter</h2>
+  <p class="text-gray-700 mb-6">
+    Signup for our email newspaper to get exclusive discounts, updates & more
+  </p>
+
+  <input
+    type="text"
+    class="border border-black w-4/5 md:w-3/5 p-2 mb-4"
+  />
+
+  <br />
+
+  <button class="bg-black text-white px-6 py-2 rounded">
+    Subscribe
+  </button>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer class="bg-green-100 p-6 text-center">
+    <h2 class="text-xl font-bold mb-2">Greenden</h2>
+    <p class="text-gray-600 text-sm mb-2">
+      Bringing greenery closer to your lifestyle.
+    </p>
+    <p class="text-sm text-gray-500">
+      © 2026 Greenden.com
+    </p>
+  </footer>
+
+</body>
+</html>
+
+
+
